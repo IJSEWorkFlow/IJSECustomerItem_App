@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.main.controller.MainController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="101.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/prewi.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="82.0" layoutY="334.0" mnemonicParsing="false" onAction="#btnSaveCustomerOnAction" prefHeight="53.0" prefWidth="188.0" style="-fx-background-color: blue;" text="Save Customer" textFill="#d0c2c2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="286.0" layoutY="332.0" mnemonicParsing="false" onAction="#btnSaveItemOnAction" prefHeight="53.0" prefWidth="202.0" style="-fx-background-color: green;" text="Save Item" textFill="#ddd1d1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
