@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.main.controller.CustomerController">
+   <children>
+      <Label layoutX="83.0" layoutY="14.0" text="Customer Save Form" textFill="#c32020">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtid" layoutX="97.0" layoutY="97.0" prefHeight="32.0" prefWidth="384.0" promptText="Enter your ID" />
+      <TextField fx:id="txtname" layoutX="97.0" layoutY="142.0" prefHeight="32.0" prefWidth="384.0" promptText="Enter Your Name" />
+      <Button layoutX="370.0" layoutY="323.0" mnemonicParsing="false" onAction="#btnsaveOnAction" prefHeight="46.0" prefWidth="202.0" style="-fx-background-color: blue;" text="Save " textFill="#f0eff8">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="538.0" layoutY="20.0" mnemonicParsing="false" onAction="#btnBackOnAction" text="Back" />
+      <TextField fx:id="txtaddress" layoutX="97.0" layoutY="185.0" prefHeight="32.0" prefWidth="384.0" promptText="Enter your Address" />
+      <TextField fx:id="txtsalary" layoutX="97.0" layoutY="230.0" prefHeight="32.0" prefWidth="384.0" promptText="Enter Your Salary" />
+   </children>
+</AnchorPane>
